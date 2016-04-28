@@ -1,2 +1,7 @@
 
 #include "R3F_LOG\desc_include.h"
+
+respawn = "BASE";
+respawnDelay = 5;
+respawnTemplates[] = {"MenuPosition", "side"};
+respawnOnStart = 0;
