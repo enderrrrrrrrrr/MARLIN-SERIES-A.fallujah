@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=129;
+		nextID=140;
 	};
 	class Camera
 	{
-		pos[]={8259.5811,663.93774,1639.6073};
-		dir[]={0.20438138,-0.91254294,-0.35433462};
-		up[]={0.45594063,0.4090108,-0.79045999};
-		aside[]={-0.86625272,9.8133023e-007,-0.49965537};
+		pos[]={8259.5811,229.28601,1639.6073};
+		dir[]={-0.37423682,-0.58189756,0.72208768};
+		up[]={-0.26776299,0.81325251,0.51664662};
+		aside[]={0.88787299,-1.6239937e-008,0.46015534};
 	};
 };
 binarizationWanted=0;
@@ -27221,7 +27221,7 @@ class Mission
 			text="BASE BUILDING CONVOY";
 			type="mil_arrow2";
 			colorName="ColorOrange";
-			angle=297.09323;
+			angle=297.0932;
 			id=2795;
 		};
 		class Item767
@@ -76959,6 +76959,7 @@ class Mission
 			{
 				position[]={10446.122,7,7361.48};
 			};
+			name="LOGIC_ALIVE";
 			id=4715;
 			type="ALiVE_require";
 			class CustomAttributes
@@ -82015,7 +82016,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={10575.539,7,7221.6304};
+				position[]={10575.539,7,7221.6299};
 			};
 			id=4740;
 			type="ALiVE_sys_data";
