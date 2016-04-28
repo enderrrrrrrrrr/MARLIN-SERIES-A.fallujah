@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8259.5811,229.28601,1639.6073};
-		dir[]={-0.37423682,-0.58189756,0.72208768};
-		up[]={-0.26776299,0.81325251,0.51664662};
-		aside[]={0.88787299,-1.6239937e-008,0.46015534};
+		pos[]={588.74298,58.081207,8521.5898};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
 	};
 };
 binarizationWanted=0;
@@ -32216,18 +32216,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={26.452267,8.954586,10223.795};
-				angles[]={0,1.8040006,0};
+				position[]={26.451834,8.954586,10223.795};
+				angles[]={0,1.8040072,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="this addAction [""Open Virtual Arsenal"", {[""Open"",true] spawn BIS_fnc_arsenal}];";
 				description="Virtual Arsenal";
 			};
 			id=3198;
 			type="rhsusf_M1078A1P2_B_M2_d_fmtv_usarmy";
-			atlOffset=4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
